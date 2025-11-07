@@ -162,3 +162,9 @@ def process_factor_pipeline(universe: str, factor_ids: list, from_date: datetime
     
     return final_df
 ```
+
+## Project technical discussion ( Stock Screener ) 
+1. Raw data: Company data ticker/symbol, market data, fundamentals, estimates ( 50 different types) for S&P500, for the last 20 years
+2. Building numerical factors/metrics library 
+3. Ranking stocks based on selected factors
+4. Back testing
